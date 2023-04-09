@@ -87,7 +87,7 @@ def secert_off():
 #也可以用place来决定把文本放在哪,直接输入x轴和y轴的坐标就行
 
 #Label还可以加载图片格式为tk.Label(窗口名,image=tupian).pack()ps:只支持.gif等格式的图片
-#ps:tupian = tk.PhotoImage(flie='文件名')ps:这一句必须放外面或用global设成全局变量
+#ps:tupian = tk.PhotoImage(flie='文件名') ps:这一句必须放外面或用global设成全局变量
 #如果想放其他格式的图片可以用 变量名 = ImageTk.PhotoImage(file='文件名')ps:PIL库要单独下载
 #窗口名.iconphoto(True,文件名)设置图标,True代表以后新开的窗口都用该图标,False代表只用当前窗口用该图标
 button_secert_off = tk.Button(root,text='密码可见',width=7,height=1,bg='Tan',command=secert_off)
